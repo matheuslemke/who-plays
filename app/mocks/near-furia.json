@@ -1,0 +1,129 @@
+{
+  "previousEvent": {
+    "tournament": {
+      "name": "Roobet Cup Playoffs",
+      "slug": "roobet-cup-playoffs",
+      "category": {
+        "name": "CS:GO",
+        "slug": "csgo",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "id": 1572,
+        "flag": "csgo"
+      },
+      "uniqueTournament": {
+        "name": "Roobet Cup",
+        "slug": "roobet-cup",
+        "category": {
+          "name": "CS:GO",
+          "slug": "csgo",
+          "sport": {
+            "name": "E-sports",
+            "slug": "esports",
+            "id": 72
+          },
+          "id": 1572,
+          "flag": "csgo"
+        },
+        "userCount": 188,
+        "id": 18852,
+        "hasEventPlayerStatistics": false,
+        "crowdsourcingEnabled": false,
+        "hasPerformanceGraphFeature": false,
+        "displayInverseHomeAwayTeams": false
+      },
+      "priority": 0,
+      "id": 102852
+    },
+    "customId": "CJVcscKVc",
+    "status": {
+      "code": 100,
+      "description": "Ended",
+      "type": "finished"
+    },
+    "winnerCode": 2,
+    "homeTeam": {
+      "name": "FURIA",
+      "slug": "furia",
+      "shortName": "FURIA",
+      "gender": "M",
+      "sport": {
+        "name": "E-sports",
+        "slug": "esports",
+        "id": 72
+      },
+      "userCount": 5153,
+      "nameCode": "FUR",
+      "national": false,
+      "type": 0,
+      "id": 364252,
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#52b030",
+        "secondary": "#52b030",
+        "text": "#ffffff"
+      }
+    },
+    "awayTeam": {
+      "name": "Virtus.pro",
+      "slug": "virtuspro",
+      "shortName": "Virtus.pro",
+      "sport": {
+        "name": "E-sports",
+        "slug": "esports",
+        "id": 72
+      },
+      "userCount": 475,
+      "nameCode": "VIR",
+      "national": false,
+      "type": 0,
+      "id": 364227,
+      "subTeams": [],
+      "teamColors": {
+        "primary": "#52b030",
+        "secondary": "#52b030",
+        "text": "#ffffff"
+      }
+    },
+    "homeScore": {
+      "current": 1,
+      "display": 1,
+      "period1": 16,
+      "period2": 10,
+      "period3": 7
+    },
+    "awayScore": {
+      "current": 2,
+      "display": 2,
+      "period1": 13,
+      "period2": 13,
+      "period3": 13
+    },
+    "coverage": 92,
+    "time": {},
+    "changes": {
+      "changes": [
+        "status.code",
+        "status.description",
+        "status.type",
+        "awayScore.current",
+        "awayScore.display",
+        "time.currentPeriodStart"
+      ],
+      "changeTimestamp": 1698871565
+    },
+    "hasGlobalHighlights": true,
+    "crowdsourcingDataDisplayEnabled": false,
+    "id": 11793658,
+    "bestOf": 3,
+    "eventType": "best_of",
+    "startTimestamp": 1698858900,
+    "slug": "furia-virtuspro",
+    "finalResultOnly": false,
+    "crowdsourcingEnabled": false
+  },
+  "nextEvent": null
+}

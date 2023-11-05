@@ -1,0 +1,1429 @@
+{
+  "results": [
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "gender": "M",
+        "id": 364252,
+        "name": "FURIA",
+        "nameCode": "FUR",
+        "national": false,
+        "shortName": "FURIA",
+        "slug": "furia",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 5153
+      },
+      "score": 48504.945,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 363860,
+        "name": "FURIA",
+        "nameCode": "FUP",
+        "national": false,
+        "shortName": "FURIA",
+        "slug": "furia",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 168
+      },
+      "score": 10542.888,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "id": 388979,
+        "name": "Furia fe",
+        "nameCode": "FFE",
+        "national": false,
+        "shortName": "Furia fe",
+        "slug": "furia-fe",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 90
+      },
+      "score": 6390.46,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "id": 365387,
+        "name": "FURIA Academy",
+        "nameCode": "FAC",
+        "national": false,
+        "shortName": "FURIA Academy",
+        "slug": "furia-academy",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 76
+      },
+      "score": 5492.1055,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "id": 375469,
+        "name": "FURIA Academy",
+        "nameCode": "FAC",
+        "national": false,
+        "shortName": "FURIA Academy",
+        "slug": "furia-academy",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 31
+      },
+      "score": 3545.8975,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "id": 364888,
+        "name": "FURIA Esports",
+        "nameCode": "FES",
+        "national": false,
+        "shortName": "FURIA Esports",
+        "slug": "furia-esports",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 22
+      },
+      "score": 3006.181,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "id": 388612,
+        "name": "Fúria Jovem",
+        "nameCode": "FJO",
+        "national": false,
+        "shortName": "Fúria Jovem",
+        "slug": "furia-jovem",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 2
+      },
+      "score": 1097.452,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Gabriel",
+        "id": 1080606,
+        "lastName": "Toledo",
+        "name": "FalleN",
+        "shortName": "FalleN",
+        "slug": "fallen",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 1
+      },
+      "score": 633.85815,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Mateus",
+        "id": 1081158,
+        "lastName": "Cayres",
+        "name": "Fitz",
+        "position": "top",
+        "shortName": "Fitz",
+        "slug": "fitz",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 469.00836,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Andrei",
+        "id": 1078764,
+        "lastName": "Piovezan",
+        "name": "arT",
+        "shortName": "arT",
+        "slug": "art",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 467.64767,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Henrique",
+        "id": 1080439,
+        "lastName": "Teles",
+        "name": "HEN1",
+        "shortName": "HEN1",
+        "slug": "hen1",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 452.84384,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "André",
+        "id": 1076040,
+        "lastName": "Abreu",
+        "name": "drop",
+        "shortName": "drop",
+        "slug": "drop",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 449.87268,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Vinicius",
+        "id": 1078763,
+        "lastName": "Figueiredo",
+        "name": "VINI",
+        "shortName": "VINI",
+        "slug": "vini",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 449.87268,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Gustavo ",
+        "id": 1071916,
+        "lastName": "Dirami",
+        "name": "st1ng",
+        "position": "jun",
+        "shortName": "st1ng",
+        "slug": "st1ng",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 445.9086,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Marcelo",
+        "id": 1080294,
+        "lastName": "Cespedes",
+        "name": "chelo",
+        "shortName": "chelo",
+        "slug": "chelo",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 445.9086,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "William",
+        "id": 1071915,
+        "lastName": "Portugal",
+        "name": "Tyrin",
+        "position": "top",
+        "shortName": "Tyrin",
+        "slug": "tyrin",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 442.31296,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Ruan",
+        "id": 1075697,
+        "lastName": "Silva",
+        "name": "Anyyy",
+        "position": "mid",
+        "shortName": "Anyyy",
+        "slug": "anyyy",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 442.31296,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "CL",
+          "name": "Chile"
+        },
+        "firstName": "Javier Eugenio",
+        "id": 1097011,
+        "lastName": " Manuel Fuentes Nicoletti",
+        "name": "Skeeto",
+        "position": "top",
+        "shortName": "Skeeto",
+        "slug": "skeeto",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 442.12396,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Miguel",
+        "id": 1074252,
+        "lastName": "Rezek",
+        "name": "Stepz",
+        "position": "adc",
+        "shortName": "Stepz",
+        "slug": "stepz",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 439.421,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Karina",
+        "id": 1133938,
+        "lastName": "Takahashi",
+        "name": "kaah",
+        "shortName": "kaah",
+        "slug": "kaah",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 388979,
+          "name": "Furia fe",
+          "nameCode": "FFE",
+          "national": false,
+          "shortName": "Furia fe",
+          "slug": "furia-fe",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 90
+        },
+        "userCount": 0
+      },
+      "score": 438.37695,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Gabriela",
+        "id": 1133940,
+        "lastName": "Freindorfer",
+        "name": "gabs",
+        "shortName": "gabs",
+        "slug": "gabs",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 388979,
+          "name": "Furia fe",
+          "nameCode": "FFE",
+          "national": false,
+          "shortName": "Furia fe",
+          "slug": "furia-fe",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 90
+        },
+        "userCount": 0
+      },
+      "score": 438.37695,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Pedro Lucas",
+        "id": 1097012,
+        "lastName": "Rodrigues",
+        "name": "Beenie",
+        "position": "adc",
+        "shortName": "Beenie",
+        "slug": "beenie",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 435.77975,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Olga",
+        "id": 1183634,
+        "lastName": "Rodrigues Locatelli",
+        "name": "olga",
+        "shortName": "olga",
+        "slug": "olga",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 388979,
+          "name": "Furia fe",
+          "nameCode": "FFE",
+          "national": false,
+          "shortName": "Furia fe",
+          "slug": "furia-fe",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 90
+        },
+        "userCount": 0
+      },
+      "score": 435.55176,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "RS",
+          "name": "Serbia"
+        },
+        "id": 1214674,
+        "name": "fURIA",
+        "shortName": "fURIA",
+        "slug": "furia",
+        "team": {
+          "country": {},
+          "id": 414898,
+          "name": "ghoulsW",
+          "nameCode": "GHO",
+          "national": false,
+          "shortName": "ghoulsW",
+          "slug": "ghoulsw",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 4
+        },
+        "userCount": 0
+      },
+      "score": 432.30957,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Yan",
+        "id": 1075696,
+        "lastName": "Sales Neves",
+        "name": "Damage",
+        "position": "sup",
+        "shortName": "Damage",
+        "slug": "damage",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 432.26068,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Yuri",
+        "id": 1078765,
+        "lastName": "Santos",
+        "name": "yuurih",
+        "shortName": "yuurih",
+        "slug": "yuurih",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 429.44388,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Gabriela",
+        "id": 1133939,
+        "lastName": "Lopes Velasco",
+        "name": "gabee",
+        "shortName": "gabee",
+        "slug": "gabee",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 388979,
+          "name": "Furia fe",
+          "nameCode": "FFE",
+          "national": false,
+          "shortName": "Furia fe",
+          "slug": "furia-fe",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 90
+        },
+        "userCount": 0
+      },
+      "score": 426.1134,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "João Pedro",
+        "id": 1069876,
+        "lastName": "Couto",
+        "name": "Titeito",
+        "position": "mid",
+        "shortName": "Titeito",
+        "slug": "titeito",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 419.90976,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Gabriel",
+        "id": 1382011,
+        "lastName": "Furuuti",
+        "name": "Fuuu",
+        "position": "mid",
+        "shortName": "Fuuu",
+        "slug": "fuuu",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 375469,
+          "name": "FURIA Academy",
+          "nameCode": "FAC",
+          "national": false,
+          "shortName": "FURIA Academy",
+          "slug": "furia-academy",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 31
+        },
+        "userCount": 0
+      },
+      "score": 417.3228,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Fábio Luis",
+        "id": 1069858,
+        "lastName": "Bezerra Marques",
+        "name": "ProDelta",
+        "position": "sup",
+        "shortName": "ProDelta",
+        "slug": "prodelta",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 363860,
+          "name": "FURIA",
+          "nameCode": "FUP",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 168
+        },
+        "userCount": 0
+      },
+      "score": 416.84256,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Kaike",
+        "id": 1078762,
+        "lastName": "Cerato",
+        "name": "kscerato",
+        "shortName": "kscerato",
+        "slug": "kscerato",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "gender": "M",
+          "id": 364252,
+          "name": "FURIA",
+          "nameCode": "FUR",
+          "national": false,
+          "shortName": "FURIA",
+          "slug": "furia",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 5153
+        },
+        "userCount": 0
+      },
+      "score": 410.7898,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Vinicius",
+        "id": 1074757,
+        "lastName": "Ramos",
+        "name": "vn",
+        "shortName": "vn",
+        "slug": "vn",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 365387,
+          "name": "FURIA Academy",
+          "nameCode": "FAC",
+          "national": false,
+          "shortName": "FURIA Academy",
+          "slug": "furia-academy",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 76
+        },
+        "userCount": 0
+      },
+      "score": 402.05753,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "João ",
+        "id": 1123446,
+        "lastName": "Rosas",
+        "name": "Kick",
+        "position": "sup",
+        "shortName": "Kick",
+        "slug": "kick",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 375469,
+          "name": "FURIA Academy",
+          "nameCode": "FAC",
+          "national": false,
+          "shortName": "FURIA Academy",
+          "slug": "furia-academy",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 31
+        },
+        "userCount": 0
+      },
+      "score": 397.05392,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Pedro",
+        "id": 1458255,
+        "lastName": "Nunes",
+        "name": "Gru",
+        "position": "top",
+        "shortName": "Gru",
+        "slug": "gru",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 375469,
+          "name": "FURIA Academy",
+          "nameCode": "FAC",
+          "national": false,
+          "shortName": "FURIA Academy",
+          "slug": "furia-academy",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 31
+        },
+        "userCount": 0
+      },
+      "score": 396.2399,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Andrey",
+        "id": 1458257,
+        "lastName": "Saraiva",
+        "name": "Ayu",
+        "position": "adc",
+        "shortName": "Ayu",
+        "slug": "ayu",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 375469,
+          "name": "FURIA Academy",
+          "nameCode": "FAC",
+          "national": false,
+          "shortName": "FURIA Academy",
+          "slug": "furia-academy",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 31
+        },
+        "userCount": 0
+      },
+      "score": 396.2399,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Leonardo",
+        "id": 1076024,
+        "lastName": "Toledo",
+        "name": "zmb",
+        "shortName": "zmb",
+        "slug": "zmb",
+        "team": {
+          "country": {
+            "alpha2": "BR",
+            "name": "Brazil"
+          },
+          "id": 365387,
+          "name": "FURIA Academy",
+          "nameCode": "FAC",
+          "national": false,
+          "shortName": "FURIA Academy",
+          "slug": "furia-academy",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 76
+        },
+        "userCount": 0
+      },
+      "score": 396.2399,
+      "type": "player"
+    }
+  ]
+}

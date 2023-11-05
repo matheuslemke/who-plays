@@ -1,0 +1,237 @@
+{
+  "results": [
+    {
+      "entity": {
+        "country": {
+          "alpha2": "US",
+          "name": "USA"
+        },
+        "id": 364396,
+        "name": "FaZe",
+        "nameCode": "FAZ",
+        "national": false,
+        "shortName": "FaZe",
+        "slug": "faze",
+        "sport": {
+          "id": 72,
+          "name": "E-sports",
+          "slug": "esports"
+        },
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 1928
+      },
+      "score": 21915.664,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "NO",
+          "name": "Norway"
+        },
+        "firstName": "Håvard",
+        "id": 1080580,
+        "lastName": "Nygaard",
+        "name": "rain",
+        "shortName": "rain",
+        "slug": "rain",
+        "team": {
+          "country": {
+            "alpha2": "US",
+            "name": "USA"
+          },
+          "id": 364396,
+          "name": "FaZe",
+          "nameCode": "FAZ",
+          "national": false,
+          "shortName": "FaZe",
+          "slug": "faze",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1928
+        },
+        "userCount": 0
+      },
+      "score": 332.23834,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "LV",
+          "name": "Latvia"
+        },
+        "firstName": "Helvijs",
+        "id": 1078610,
+        "lastName": "Saukants",
+        "name": "broky",
+        "shortName": "broky",
+        "slug": "broky",
+        "team": {
+          "country": {
+            "alpha2": "US",
+            "name": "USA"
+          },
+          "id": 364396,
+          "name": "FaZe",
+          "nameCode": "FAZ",
+          "national": false,
+          "shortName": "FaZe",
+          "slug": "faze",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1928
+        },
+        "userCount": 0
+      },
+      "score": 324.33234,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "firstName": "Marcelo",
+        "id": 1080604,
+        "lastName": "David",
+        "name": "coldzera",
+        "shortName": "coldzera",
+        "slug": "coldzera",
+        "team": {
+          "country": {
+            "alpha2": "US",
+            "name": "USA"
+          },
+          "id": 364396,
+          "name": "FaZe",
+          "nameCode": "FAZ",
+          "national": false,
+          "shortName": "FaZe",
+          "slug": "faze",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1928
+        },
+        "userCount": 0
+      },
+      "score": 309.6828,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "DK",
+          "name": "Denmark"
+        },
+        "firstName": "Markus",
+        "id": 1080594,
+        "lastName": "Kjærbye",
+        "name": "Kjaerbye",
+        "shortName": "Kjaerbye",
+        "slug": "kjaerbye",
+        "team": {
+          "country": {
+            "alpha2": "US",
+            "name": "USA"
+          },
+          "id": 364396,
+          "name": "FaZe",
+          "nameCode": "FAZ",
+          "national": false,
+          "shortName": "FaZe",
+          "slug": "faze",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1928
+        },
+        "userCount": 0
+      },
+      "score": 302.7216,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "country": {
+          "alpha2": "SE",
+          "name": "Sweden"
+        },
+        "firstName": "Olof",
+        "id": 1080577,
+        "lastName": "Kajbjer Gustafsson",
+        "name": "olofmeister",
+        "shortName": "olofmeister",
+        "slug": "olofmeister",
+        "team": {
+          "country": {
+            "alpha2": "US",
+            "name": "USA"
+          },
+          "id": 364396,
+          "name": "FaZe",
+          "nameCode": "FAZ",
+          "national": false,
+          "shortName": "FaZe",
+          "slug": "faze",
+          "sport": {
+            "id": 72,
+            "name": "E-sports",
+            "slug": "esports"
+          },
+          "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1928
+        },
+        "userCount": 0
+      },
+      "score": 283.81076,
+      "type": "player"
+    }
+  ]
+}
