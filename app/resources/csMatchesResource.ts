@@ -1,0 +1,43 @@
+import { Match } from "@/types/Match"
+import { NextMatchesResponse } from "@/types/NextMatchesResponse"
+
+const mapper = (response: NextMatchesResponse): Match[] => {
+  const matches = response.events.map((event) => {
+    const time = new Date(event.startTimestamp * 1000)
+    return {
+      id: event.id,
+      home: { name: event.homeTeam.name },
+      away: { name: event.awayTeam.name },
+      league: event.tournament.name,
+      date: time.toString(),
+      game: "CS2",
+    } as Match
+  })
+  return matches
+}
+
+const getMatches = async (teamId: number): Promise<Match[]> => {
+  const url = `${process.env.CSGO_URL}/team/${teamId}/matches/next/0`
+  const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": process.env.CSGO_KEY || "",
+      "X-RapidAPI-Host": "esportapi1.p.rapidapi.com",
+    },
+  }
+
+  try {
+    const response = await fetch(url, options)
+    if (Number(response.headers.get("content-length")) > 0) {
+      const result: NextMatchesResponse = await response.json()
+      return mapper(result)
+    }
+  } catch (error) {
+    console.error(error)
+  }
+  return []
+}
+
+const CSMatchesResource = { getMatches }
+
+export { CSMatchesResource }
