@@ -32,6 +32,7 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
     )
     if (Number(response.headers.get("content-length")) > 0) {
       const result: NextMatchesResponse = nextFazeResponseMock // await response.json()
+      console.log('resultou aqui', result)
       return mapper(result)
     }
   } catch (error) {
