@@ -30,11 +30,10 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
         next: { revalidate: 3600 },
       }
     )
-    if (Number(response.headers.get("content-length")) > 0) {
-      const result: NextMatchesResponse = nextFazeResponseMock // await response.json()
-      console.log('resultou aqui', result)
-      return mapper(result)
-    }
+    // if (Number(response.headers.get("content-length")) > 0) {
+    const result: NextMatchesResponse = nextFazeResponseMock // await response.json()
+    return mapper(result)
+    // }
   } catch (error) {
     console.error(error)
   }
