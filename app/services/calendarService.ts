@@ -12,7 +12,7 @@ const addEvent = async (match: Match) => {
     return
   }
 
-  const calendarId = process.env.CALENDAR_ID
+  const calendarId = process.env.NEXT_PUBLIC_CALENDAR_ID
 
   const start = dayjs(match.date).utc()
   const end = start.add(2.5, "hours").utc()
