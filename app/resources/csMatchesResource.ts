@@ -1,3 +1,4 @@
+import { nextFazeResponseMock } from "@/mocks/nextFazeResponse"
 import { Match } from "@/types/Match"
 import { NextMatchesResponse } from "@/types/NextMatchesResponse"
 
@@ -30,7 +31,7 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
       }
     )
     if (Number(response.headers.get("content-length")) > 0) {
-      const result: NextMatchesResponse = await response.json()
+      const result: NextMatchesResponse = nextFazeResponseMock // await response.json()
       return mapper(result)
     }
   } catch (error) {
