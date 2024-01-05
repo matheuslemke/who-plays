@@ -1,12 +1,12 @@
 import { CSMatchesController } from "@/controllers/csMatchesController"
 import { Match } from "@/types/Match"
-import tw from "tailwind-styled-components"
-import { AddToCalendar } from "./components/AddToCalendar"
 import dayjs from "dayjs"
 import timezone from "dayjs/plugin/timezone"
 import utc from "dayjs/plugin/utc"
-dayjs.extend(utc)
+import tw from "tailwind-styled-components"
+import { AddToCalendar } from "./components/AddToCalendar"
 dayjs.extend(timezone)
+dayjs.extend(utc)
 
 const Game = tw.span`
   text-xs my-auto md:text-base
@@ -35,13 +35,13 @@ export default async function Home() {
               <div className="flex flex-col items-center">
                 <span className="text-[8px] text-center md:text-xs">
                   {dayjs(match.date)
-                    .tz("America/Sao_Paulo", true)
+                    .tz("America/Sao_Paulo")
                     .toString()
                     .substring(5, 11)}
                 </span>
                 <span className="text-4xl">
                   {dayjs(match.date)
-                    .tz("America/Sao_Paulo", true)
+                    .tz("America/Sao_Paulo")
                     .toString()
                     .substring(17, 22)}
                 </span>
