@@ -3,6 +3,10 @@ import { Match } from "@/types/Match"
 import tw from "tailwind-styled-components"
 import { AddToCalendar } from "./components/AddToCalendar"
 import dayjs from "dayjs"
+import timezone from "dayjs/plugin/timezone"
+import utc from "dayjs/plugin/utc"
+dayjs.extend(utc)
+dayjs.extend(timezone)
 
 const Game = tw.span`
   text-xs my-auto md:text-base
@@ -30,9 +34,17 @@ export default async function Home() {
               <TeamName>{match.home.name}</TeamName>
               <div className="flex flex-col items-center">
                 <span className="text-[8px] text-center md:text-xs">
-                  {dayjs(match.date).format("DD/MMM")}
+                  {dayjs(match.date)
+                    .tz("America/Sao_Paulo", true)
+                    .toString()
+                    .substring(5, 11)}
                 </span>
-                <span className="text-4xl">{match.date.substring(16, 21)}</span>
+                <span className="text-4xl">
+                  {dayjs(match.date)
+                    .tz("America/Sao_Paulo", true)
+                    .toString()
+                    .substring(17, 22)}
+                </span>
                 <span className="text-[8px] text-center md:text-xs">
                   {match.league}
                 </span>
