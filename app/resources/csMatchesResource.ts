@@ -9,7 +9,7 @@ const mapper = (response: NextMatchesResponse): Match[] => {
   const matches = response.events.map((event) => {
     const date = dayjs(event.startTimestamp * 1000)
       .tz("America/Sao_Paulo")
-      .toISOString()
+      .toString()
     return {
       id: event.id,
       home: { name: event.homeTeam.name },
