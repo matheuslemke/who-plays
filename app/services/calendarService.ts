@@ -14,10 +14,10 @@ const addEvent = async (match: Match) => {
 
   const calendarId = process.env.NEXT_PUBLIC_CALENDAR_ID
 
-  const start = dayjs(match.date).utc()
-  const end = start.add(2.5, "hours").utc()
+  const start = dayjs(match.date)
+  const end = start.add(2.5, "hours").tz("America/Sao_Paulo")
 
-  await fetch(
+  const response = await fetch(
     `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?alt=json`,
     {
       method: "POST",
@@ -32,6 +32,11 @@ const addEvent = async (match: Match) => {
       }),
     }
   )
+
+  if (response.status >= 400) {
+    await signIn()
+    return
+  }
 }
 
 const CalendarService = { addEvent }

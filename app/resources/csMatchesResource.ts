@@ -1,16 +1,21 @@
 import { nextFazeResponseMock } from "@/mocks/nextFazeResponse"
 import { Match } from "@/types/Match"
 import { NextMatchesResponse } from "@/types/NextMatchesResponse"
+import dayjs from "dayjs"
+import timezone from "dayjs/plugin/timezone"
+dayjs.extend(timezone)
 
 const mapper = (response: NextMatchesResponse): Match[] => {
   const matches = response.events.map((event) => {
-    const time = new Date(event.startTimestamp * 1000)
+    const date = dayjs(event.startTimestamp * 1000)
+      .tz("America/Sao_Paulo")
+      .toISOString()
     return {
       id: event.id,
       home: { name: event.homeTeam.name },
       away: { name: event.awayTeam.name },
       league: event.tournament.name,
-      date: time.toString(),
+      date,
       game: "CS2",
     } as Match
   })
