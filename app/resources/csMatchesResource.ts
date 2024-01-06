@@ -7,9 +7,7 @@ dayjs.extend(timezone)
 
 const mapper = (response: NextMatchesResponse): Match[] => {
   const matches = response.events.map((event) => {
-    const date = dayjs(event.startTimestamp * 1000)
-      .tz("America/Sao_Paulo")
-      .toString()
+    const date = dayjs(event.startTimestamp * 1000).toString()
     return {
       id: event.id,
       home: { name: event.homeTeam.name },

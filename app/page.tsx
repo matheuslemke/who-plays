@@ -34,10 +34,10 @@ export default async function Home() {
               <TeamName>{match.home.name}</TeamName>
               <div className="flex flex-col items-center">
                 <span className="text-[8px] text-center md:text-xs">
-                  {dayjs(match.date).format("DD/MMM")}
+                  {dayjs(match.date).tz("America/Sao_Paulo").format("DD/MMM")}
                 </span>
                 <span className="text-4xl">
-                  {dayjs(match.date).format("hh:mm")}
+                  {dayjs(match.date).tz("America/Sao_Paulo").format("hh:mm")}
                 </span>
                 <span className="text-[8px] text-center md:text-xs">
                   {match.league}

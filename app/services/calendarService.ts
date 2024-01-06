@@ -1,8 +1,10 @@
 import { Match } from "@/types/Match"
 import dayjs from "dayjs"
+import timezone from "dayjs/plugin/timezone"
 import utc from "dayjs/plugin/utc"
 import { getSession, signIn } from "next-auth/react"
 dayjs.extend(utc)
+dayjs.extend(timezone)
 
 const addEvent = async (match: Match) => {
   const session = await getSession()
@@ -14,7 +16,7 @@ const addEvent = async (match: Match) => {
 
   const calendarId = process.env.NEXT_PUBLIC_CALENDAR_ID
 
-  const start = dayjs(match.date)
+  const start = dayjs(match.date).tz("America/Sao_Paulo")
   const end = start.add(2.5, "hours").tz("America/Sao_Paulo")
 
   const response = await fetch(
