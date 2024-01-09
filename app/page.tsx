@@ -37,7 +37,7 @@ export default async function Home() {
                   {dayjs(match.date).tz("America/Sao_Paulo").format("DD/MMM")}
                 </span>
                 <span className="text-4xl">
-                  {dayjs(match.date).tz("America/Sao_Paulo").format("hh:mm")}
+                  {dayjs(match.date).tz("America/Sao_Paulo").format("HH:mm")}
                 </span>
                 <span className="text-[8px] text-center md:text-xs">
                   {match.league}
