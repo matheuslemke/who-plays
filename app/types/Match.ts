@@ -4,7 +4,7 @@ export type Match = {
   away: Team
   league: string
   date: string
-  game: string
+  game: "CS2" | "Futebol"
 }
 
 type Team = {
