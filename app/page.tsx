@@ -5,6 +5,7 @@ import timezone from "dayjs/plugin/timezone"
 import utc from "dayjs/plugin/utc"
 import tw from "tailwind-styled-components"
 import { AddToCalendar } from "./components/AddToCalendar"
+import { SoccerMatchesController } from "@/controllers/soccerMatchesController"
 dayjs.extend(timezone)
 dayjs.extend(utc)
 
@@ -15,8 +16,15 @@ const TeamName = tw.div`
   text-xs text-ellipsis text-center self-center md:text-lg
 `
 
-const getMatches = async (): Promise<Match[]> =>
-  CSMatchesController.getMatches()
+const getMatches = async (): Promise<Match[]> => {
+  return Promise.all([
+    CSMatchesController.getMatches(),
+    SoccerMatchesController.getMatches(),
+  ]).then((matches) => {
+    const m = matches.reduce((prev, curr) => prev.concat(curr), [])
+    return m.sort((a, b) => dayjs(a.date).diff(b.date))
+  })
+}
 
 export default async function Home() {
   const matches = await getMatches()
