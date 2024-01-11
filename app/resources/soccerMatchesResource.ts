@@ -1,9 +1,5 @@
-import { nextFazeResponseMock } from "@/mocks/nextFazeResponse"
 import { Match } from "@/types/Match"
-import {
-  NextMatchesResponse,
-  NextMatchesSoccerResponse,
-} from "@/types/NextMatchesResponse"
+import { NextMatchesSoccerResponse } from "@/types/NextMatchesResponse"
 import dayjs from "dayjs"
 import timezone from "dayjs/plugin/timezone"
 dayjs.extend(timezone)
@@ -32,7 +28,7 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
         headers: {
           "X-ApiSports-Key": process.env.SOCCER_KEY || "",
         },
-        next: { revalidate: 21600 },
+        next: { revalidate: 10800 },
       }
     )
     if (response.status === 200) {
@@ -44,11 +40,6 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
   }
   return []
 }
-
-// const getMatches = async (teamId: number): Promise<Match[]> => {
-//   const result: NextMatchesResponse = nextFazeResponseMock
-//   return mapper(result)
-// }
 
 const SoccerMatchesResource = { getMatches }
 
