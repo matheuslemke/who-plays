@@ -36,3 +36,21 @@ type Event = {
   }
   startTimestamp: number
 }
+
+export type NextMatchesNbaResponse = {
+  response: {
+    id: number
+    timestamp: number
+    league: {
+      name: string
+    }
+    teams: {
+      home: {
+        name: string
+      }
+      away: {
+        name: string
+      }
+    }
+  }[]
+}
