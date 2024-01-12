@@ -8,13 +8,14 @@ const TeamName = tw.div`
 
 const Team = ({ team }: { team: TeamType }) => {
   return (
-    <div className="flex flex-col gap-1 mt-1">
+    <div className="flex flex-col gap-1 mt-3">
       <Image
         src={team.imgSrc || "/team-fallback.svg"}
-        width={32}
-        height={32}
+        width={0}
+        height={0}
         alt={`${team.name} icon`}
         className="mx-auto"
+        style={{ width: "16px", height: "16px" }}
       />
       <TeamName>{team.name}</TeamName>
     </div>
