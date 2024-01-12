@@ -12,9 +12,11 @@ export type NextMatchesSoccerResponse = {
     teams: {
       home: {
         name: string
+        logo: string | null
       }
       away: {
         name: string
+        logo: string | null
       }
     }
   }[]
@@ -47,9 +49,11 @@ export type NextMatchesNbaResponse = {
     teams: {
       home: {
         name: string
+        logo: string | null
       }
       away: {
         name: string
+        logo: string | null
       }
     }
   }[]

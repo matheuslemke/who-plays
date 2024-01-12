@@ -9,8 +9,8 @@ const mapper = (response: NextMatchesSoccerResponse): Match[] => {
     const date = dayjs(event.fixture.timestamp * 1000).toString()
     return {
       id: event.fixture.id,
-      home: { name: event.teams.home.name },
-      away: { name: event.teams.away.name },
+      home: { name: event.teams.home.name, imgSrc: event.teams.home.logo },
+      away: { name: event.teams.away.name, imgSrc: event.teams.away.logo },
       league: event.league.name,
       date,
       game: "SOCCER",
