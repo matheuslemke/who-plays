@@ -9,7 +9,7 @@ export type Match = {
 
 export type Game = "CS2" | "SOCCER" | "NBA"
 
-type Team = {
+export type Team = {
   name: string
   imgSrc?: string
 }

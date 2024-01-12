@@ -1,4 +1,5 @@
 import { GameIcon } from "@/components/GameIcon"
+import { Team } from "@/components/Team"
 import { CSMatchesController } from "@/controllers/csMatchesController"
 import { NbaMatchesController } from "@/controllers/nbaMatchesController"
 import { SoccerMatchesController } from "@/controllers/soccerMatchesController"
@@ -6,17 +7,9 @@ import { Match } from "@/types/Match"
 import dayjs from "dayjs"
 import timezone from "dayjs/plugin/timezone"
 import utc from "dayjs/plugin/utc"
-import tw from "tailwind-styled-components"
 import { AddToCalendar } from "./components/AddToCalendar"
 dayjs.extend(timezone)
 dayjs.extend(utc)
-
-const Game = tw.span`
-  text-xs my-auto md:text-base
-`
-const TeamName = tw.div`
-  text-xs text-ellipsis text-center self-center md:text-lg
-`
 
 const getMatches = async (): Promise<Match[]> => {
   return Promise.all([
@@ -42,7 +35,7 @@ export default async function Home() {
               className="border w-full grid grid-cols-[1fr_repeat(3,_2fr)_1fr] gap-3 md:gap-4"
             >
               <GameIcon game={match.game} />
-              <TeamName>{match.home.name}</TeamName>
+              <Team team={match.home} />
               <div className="flex flex-col items-center">
                 <span className="text-[8px] text-center md:text-xs">
                   {dayjs(match.date).tz("America/Sao_Paulo").format("DD/MMM")}
@@ -54,7 +47,7 @@ export default async function Home() {
                   {match.league}
                 </span>
               </div>
-              <TeamName>{match.away.name}</TeamName>
+              <Team team={match.away} />
               <div className="flex items-center mr-1">
                 <AddToCalendar match={match} />
               </div>
