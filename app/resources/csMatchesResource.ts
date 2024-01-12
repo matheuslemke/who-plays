@@ -1,4 +1,3 @@
-import { nextFazeResponseMock } from "@/mocks/nextFazeResponse"
 import { Match } from "@/types/Match"
 import { NextMatchesResponse } from "@/types/NextMatchesResponse"
 import dayjs from "dayjs"

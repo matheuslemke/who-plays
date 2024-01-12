@@ -13,7 +13,7 @@ const mapper = (response: NextMatchesSoccerResponse): Match[] => {
       away: { name: event.teams.away.name },
       league: event.league.name,
       date,
-      game: "Futebol",
+      game: "SOCCER",
     } as Match
   })
   return matches
