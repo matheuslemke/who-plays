@@ -57,8 +57,8 @@ export default async function Home() {
                 </div>
               </div>
               {matches[index + 1] &&
-              dayjs(matches[index + 1]?.date).date() >
-                dayjs(match.date).date() ? (
+              dayjs(matches[index + 1]?.date).tz("America/Sao_Paulo").date() >
+                dayjs(match.date).tz("America/Sao_Paulo").date() ? (
                 <span className="block w-full h-5" />
               ) : (
                 <></>
