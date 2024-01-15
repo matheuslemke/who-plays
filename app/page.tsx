@@ -17,8 +17,14 @@ const getMatches = async (): Promise<Match[]> => {
     SoccerMatchesController.getMatches(),
     NbaMatchesController.getMatches(),
   ]).then((matches) => {
-    const m = matches.reduce((prev, curr) => prev.concat(curr), [])
-    return m.sort((a, b) => dayjs(a.date).diff(b.date))
+    return matches
+      .reduce((prev, curr) => prev.concat(curr), [])
+      .sort((a, b) => dayjs(a.date).diff(b.date))
+      .filter(
+        (match, index, arr) =>
+          arr.findIndex((m) => m.id === match.id && m.game === match.game) ===
+          index
+      )
   })
 }
 
