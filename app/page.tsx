@@ -33,7 +33,8 @@ export default async function Home() {
 
   return (
     <main>
-      <div className="w-screen">
+      <div className="w-screen md:w-8/12 m-auto">
+        <h1 className="my-4 text-lg">Who Plays?</h1>
         <div className="flex flex-col items-center">
           {matches.map((match, index) => (
             <div key={match.id} className="w-full">
