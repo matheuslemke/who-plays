@@ -2,7 +2,7 @@ import { SoccerMatchesResource } from "@/resources/soccerMatchesResource"
 import { Match } from "@/types/Match"
 
 const getMatches = async (): Promise<Match[]> => {
-  const saoPauloId = 364396
+  const saoPauloId = 126
   const brazilId = 6
   const realMadridId = 541
   const arsenalId = 42
