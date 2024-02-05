@@ -29,7 +29,7 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
           "X-RapidAPI-Key": process.env.CSGO_KEY || "",
           "X-RapidAPI-Host": "esportapi1.p.rapidapi.com",
         },
-        next: { revalidate: 3600 },
+        // next: { revalidate: 3600 },
       }
     )
     if (Number(response.headers.get("content-length")) > 0) {
