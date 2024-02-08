@@ -28,7 +28,7 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
         headers: {
           "X-ApiSports-Key": process.env.SOCCER_KEY || "",
         },
-        // next: { revalidate: 10800 },
+        next: { revalidate: 0 },
       }
     )
     if (response.status === 200) {
