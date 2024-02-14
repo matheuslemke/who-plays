@@ -42,11 +42,6 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
   return []
 }
 
-// const getMatches = async (teamId: number): Promise<Match[]> => {
-//   const result: NextMatchesResponse = nextFazeResponseMock
-//   return mapper(result)
-// }
-
 const CSMatchesResource = { getMatches }
 
 export { CSMatchesResource }
