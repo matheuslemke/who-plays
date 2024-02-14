@@ -22,7 +22,7 @@ const mapper = (response: NextMatchesSoccerResponse): Match[] => {
 const getMatches = async (teamId: number): Promise<Match[]> => {
   try {
     const response = await fetch(
-      `${process.env.SOCCER_URL}/fixtures?team=${teamId}&next=2&timezone=America%2FSao_Paulo`,
+      `${process.env.SOCCER_URL}/fixtures?team=${teamId}&next=3&timezone=America%2FSao_Paulo`,
       {
         method: "GET",
         headers: {
@@ -41,6 +41,30 @@ const getMatches = async (teamId: number): Promise<Match[]> => {
   return []
 }
 
-const SoccerMatchesResource = { getMatches }
+const getMatchesByLeague = async (leagueId: number): Promise<Match[]> => {
+  const status = "NS"
+  const season = 2023
+  try {
+    const response = await fetch(
+      `${process.env.SOCCER_URL}/fixtures?league=${leagueId}&status=${status}&season=${season}&timezone=America%2FSao_Paulo`,
+      {
+        method: "GET",
+        headers: {
+          "X-ApiSports-Key": process.env.SOCCER_KEY || "",
+        },
+        next: { revalidate: 0 },
+      }
+    )
+    if (response.status === 200) {
+      const result: NextMatchesSoccerResponse = await response.json()
+      return mapper(result)
+    }
+  } catch (error) {
+    console.error(error)
+  }
+  return []
+}
+
+const SoccerMatchesResource = { getMatches, getMatchesByLeague }
 
 export { SoccerMatchesResource }
