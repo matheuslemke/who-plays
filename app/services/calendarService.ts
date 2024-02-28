@@ -17,7 +17,7 @@ const addEvent = async (match: Match) => {
   const calendarId = process.env.NEXT_PUBLIC_CALENDAR_ID
 
   const start = dayjs(match.date).tz("America/Sao_Paulo")
-  const end = start.add(2.5, "hours").tz("America/Sao_Paulo")
+  const end = start.add(2, "hours").tz("America/Sao_Paulo")
 
   const response = await fetch(
     `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?alt=json`,
