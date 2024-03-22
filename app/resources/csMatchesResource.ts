@@ -6,14 +6,17 @@ dayjs.extend(timezone)
 
 const mapper = (response: NextMatchesResponse): Match[] => {
   const matches = response.events.map((event) => {
-    const date = dayjs(event.startTimestamp * 1000).toString()
+    const date = dayjs(event.startTimestamp * 1000)
+    const duration = event.bestOf
+    const endDate = date.add(duration, "hours")
     return {
       id: event.id,
       home: { name: event.homeTeam.name },
       away: { name: event.awayTeam.name },
       league: event.tournament.name,
-      date,
+      date: date.toString(),
       game: "CS2",
+      endDate: endDate.toString()
     } as Match
   })
   return matches

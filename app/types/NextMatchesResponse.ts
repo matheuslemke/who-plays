@@ -37,6 +37,7 @@ type Event = {
     name: string
   }
   startTimestamp: number
+  bestOf: number
 }
 
 export type NextMatchesNbaResponse = {
