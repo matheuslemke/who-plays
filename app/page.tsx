@@ -15,7 +15,7 @@ const getMatches = async (): Promise<Match[]> => {
   return Promise.all([
     CSMatchesController.getMatches(),
     SoccerMatchesController.getMatches(),
-    NbaMatchesController.getMatches(),
+    // NbaMatchesController.getMatches(),
   ]).then((matches) => {
     return matches
       .reduce((prev, curr) => prev.concat(curr), [])
