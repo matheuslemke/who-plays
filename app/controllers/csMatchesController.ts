@@ -6,6 +6,7 @@ const getMatches = async (): Promise<Match[]> => {
   const mibrId = 366538
   const imperialId = 365850
   const planoId = 381450
+  // const painId = 381450
 
   const [furiaMatches, mibrMatches, imperialMatches, planoMatches] =
     await Promise.all([
@@ -13,6 +14,7 @@ const getMatches = async (): Promise<Match[]> => {
       CSMatchesResource.getMatches(mibrId),
       CSMatchesResource.getMatches(imperialId),
       CSMatchesResource.getMatches(planoId),
+      // CSMatchesResource.getMatches(painId),
     ])
 
   return [...furiaMatches, ...mibrMatches, ...imperialMatches, ...planoMatches]
