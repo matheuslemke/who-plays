@@ -5,6 +5,7 @@ export type Match = {
   league: string
   date: string
   game: Game
+  endDate?: string
 }
 
 export type Game = "CS2" | "SOCCER" | "NBA"
