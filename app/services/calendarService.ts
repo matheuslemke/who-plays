@@ -1,19 +1,20 @@
+import { createClient } from "@/services/supabase/server"
 import { Match } from "@/types/Match"
 import dayjs from "dayjs"
 import timezone from "dayjs/plugin/timezone"
 import utc from "dayjs/plugin/utc"
-import { getSession, signIn } from "next-auth/react"
+import { Session } from "next-auth"
+import { signIn } from "next-auth/react"
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-const addEvent = async (match: Match) => {
-  const session = await getSession()
+const GAME_ID = {
+  SOCCER: 1,
+  CS2: 2,
+  NBA: 3,
+}
 
-  if (!session) {
-    await signIn()
-    return
-  }
-
+const addEvent = async (match: Match, session: Session) => {
   const calendarId = process.env.NEXT_PUBLIC_CALENDAR_ID
 
   const start = dayjs(match.date).tz("America/Sao_Paulo")
@@ -38,8 +39,17 @@ const addEvent = async (match: Match) => {
   )
 
   if (response.status >= 400) {
+    console.error("Error:", await response.json())
     await signIn()
     return
+  }
+
+  const supabase = createClient()
+  const { error, status } = await supabase
+    .from("matches")
+    .insert({ external_id: match.id, game_id: GAME_ID[match.game] })
+  if (error || status >= 400) {
+    console.error("Supabase Error:", error)
   }
 }
 

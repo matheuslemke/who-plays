@@ -8,6 +8,8 @@ import dayjs from "dayjs"
 import timezone from "dayjs/plugin/timezone"
 import utc from "dayjs/plugin/utc"
 import { AddToCalendar } from "./components/AddToCalendar"
+import { Header } from "@/components/Header"
+import { Container } from "@/components/Container"
 dayjs.extend(timezone)
 dayjs.extend(utc)
 
@@ -15,7 +17,7 @@ const getMatches = async (): Promise<Match[]> => {
   return Promise.all([
     CSMatchesController.getMatches(),
     SoccerMatchesController.getMatches(),
-    // NbaMatchesController.getMatches(),
+    NbaMatchesController.getMatches(),
   ]).then((matches) => {
     return matches
       .reduce((prev, curr) => prev.concat(curr), [])
@@ -33,8 +35,8 @@ export default async function Home() {
 
   return (
     <main>
-      <div className="w-screen md:w-8/12 m-auto">
-        <h1 className="my-4 text-lg">Who Plays?</h1>
+      <Container>
+        <Header title="Who Plays?" />
         <div className="flex flex-col items-center">
           {matches.map((match, index) => (
             <div key={match.id} className="w-full">
@@ -58,8 +60,9 @@ export default async function Home() {
                 </div>
               </div>
               {matches[index + 1] &&
-              dayjs(matches[index + 1]?.date).tz("America/Sao_Paulo").date() >
-                dayjs(match.date).tz("America/Sao_Paulo").date() ? (
+              dayjs(matches[index + 1]?.date)
+                .tz("America/Sao_Paulo")
+                .date() > dayjs(match.date).tz("America/Sao_Paulo").date() ? (
                 <span className="block w-full h-5" />
               ) : (
                 <></>
@@ -67,7 +70,7 @@ export default async function Home() {
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </main>
   )
 }

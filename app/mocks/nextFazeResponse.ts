@@ -109,7 +109,7 @@ export const nextFazeResponseMock = {
       id: 11791899,
       bestOf: 1,
       eventType: "best_of",
-      startTimestamp: 1699507800,
+      startTimestamp: 1716900000,
       slug: "nip-faze",
       finalResultOnly: false,
       crowdsourcingEnabled: false,
