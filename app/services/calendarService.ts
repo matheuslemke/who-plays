@@ -14,7 +14,7 @@ const GAME_ID = {
   NBA: 3,
 }
 
-const addEvent = async (match: Match, session: Session) => {
+const addEvent = async (match: Match, session: Session): Promise<boolean> => {
   const calendarId = process.env.NEXT_PUBLIC_CALENDAR_ID
 
   const start = dayjs(match.date).tz("America/Sao_Paulo")
@@ -41,7 +41,7 @@ const addEvent = async (match: Match, session: Session) => {
   if (response.status >= 400) {
     console.error("Error:", await response.json())
     await signIn()
-    return
+    return false
   }
 
   const supabase = createClient()
@@ -50,7 +50,9 @@ const addEvent = async (match: Match, session: Session) => {
     .insert({ external_id: match.id, game_id: GAME_ID[match.game] })
   if (error || status >= 400) {
     console.error("Supabase Error:", error)
+    return false
   }
+  return true
 }
 
 const CalendarService = { addEvent }

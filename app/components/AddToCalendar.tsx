@@ -13,11 +13,11 @@ const AddToCalendar: FC<{ match: Match }> = ({ match }) => {
   const handleClick = useCallback(async () => {
     const session = await login()
     if (!session) {
+      console.log("No session, please login")
       return
     }
-    console.log('No session, please login')
-    addToCalendar(match, session)
-    setAlreadyAdded(true)
+    const success = await addToCalendar(match, session)
+    setAlreadyAdded(success)
   }, [match])
   return (
     <Button
