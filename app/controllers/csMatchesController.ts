@@ -8,16 +8,15 @@ const getMatches = async (): Promise<Match[]> => {
   const planoId = 381450
   // const painId = 381450
 
-  const [furiaMatches, mibrMatches, imperialMatches, planoMatches] =
-    await Promise.all([
-      CSMatchesResource.getMatches(furiaId),
-      CSMatchesResource.getMatches(mibrId),
-      CSMatchesResource.getMatches(imperialId),
-      CSMatchesResource.getMatches(planoId),
-      // CSMatchesResource.getMatches(painId),
-    ])
+  const matches = await Promise.all([
+    CSMatchesResource.getMatches(furiaId),
+    CSMatchesResource.getMatches(mibrId),
+    CSMatchesResource.getMatches(imperialId),
+    CSMatchesResource.getMatches(planoId),
+    // CSMatchesResource.getMatches(painId),
+  ])
 
-  return [...furiaMatches, ...mibrMatches, ...imperialMatches, ...planoMatches]
+  return matches.flat()
 }
 
 const CSMatchesController = {

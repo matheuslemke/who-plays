@@ -14,20 +14,19 @@ dayjs.extend(timezone)
 dayjs.extend(utc)
 
 const getMatches = async (): Promise<Match[]> => {
-  return Promise.all([
+  const matches = await Promise.all([
     CSMatchesController.getMatches(),
     SoccerMatchesController.getMatches(),
     NbaMatchesController.getMatches(),
-  ]).then((matches) => {
-    return matches
-      .reduce((prev, curr) => prev.concat(curr), [])
-      .sort((a, b) => dayjs(a.date).diff(b.date))
-      .filter(
-        (match, index, arr) =>
-          arr.findIndex((m) => m.id === match.id && m.game === match.game) ===
-          index
-      )
-  })
+  ])
+  return matches
+    .flat()
+    .sort((a, b) => dayjs(a.date).diff(b.date))
+    .filter(
+      (match, index, arr) =>
+        arr.findIndex((m) => m.id === match.id && m.game === match.game) ===
+        index
+    )
 }
 
 export default async function Home() {
