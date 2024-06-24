@@ -13,11 +13,17 @@ import { Container } from "@/components/Container"
 dayjs.extend(timezone)
 dayjs.extend(utc)
 
+// ver se está na hora de rodar por uma tabela no banco sobre os ultimos jobs rodados (1h em 1h)
+// se for a hora de rodar o job
+//    buscar as matches :load:
+//    preencher as matches no banco que já não estiverem lá
+// buscar as matches no db
+
 const getMatches = async (): Promise<Match[]> => {
   const matches = await Promise.all([
     CSMatchesController.getMatches(),
     SoccerMatchesController.getMatches(),
-    NbaMatchesController.getMatches(),
+    // NbaMatchesController.getMatches(),
   ])
   return matches
     .flat()
