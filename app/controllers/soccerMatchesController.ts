@@ -5,11 +5,13 @@ const getMatches = async (): Promise<Match[]> => {
   const saoPauloId = 126
   const brazilId = 6
   const realMadridId = 541
-  const arsenalId = 42
-  const barcelonaId = 529
+  // const arsenalId = 42
+  // const barcelonaId = 529
   const champions = 2
-  const teamIds = [saoPauloId, brazilId, realMadridId, arsenalId, barcelonaId]
-  const leagueIds = [champions]
+  const euro = 4
+  const copaAmerica = 9
+  const teamIds = [saoPauloId, brazilId, realMadridId]
+  const leagueIds = [champions, euro, copaAmerica]
 
   const matches = await Promise.all([
     ...teamIds.map((id) => SoccerMatchesResource.getMatches(id)),
