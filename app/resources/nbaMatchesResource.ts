@@ -31,7 +31,7 @@ const getMatches = async (): Promise<Match[]> => {
         headers: {
           "X-ApiSports-Key": process.env.NBA_KEY || "",
         },
-        next: { revalidate: 3600 },
+        next: { revalidate: 60 },
       }
     )
     if (response.status === 200) {
